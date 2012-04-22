@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.4.10" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0        http://pear.php.net/dtd/tasks-1.0.xsd        http://pear.php.net/dtd/package-2.0        http://pear.php.net/dtd/package-2.0.xsd">
+  <name>Spyc</name>
+  <channel>pear.corneltek.com</channel>
+  <summary>Spyc YAML component</summary>
+  <description>Spyc YAML component</description>
+  <lead>
+    <name>Chris Wanstrath</name>
+    <user/>
+    <email>chris@ozmm.org</email>
+    <active>yes</active>
+  </lead>
+  <lead>
+    <name>Vlad Andersen</name>
+    <user/>
+    <email>vlad.andersen@gmail.com</email>
+    <active>yes</active>
+  </lead>
+  <date>2012-04-22</date>
+  <time>20:46:37</time>
+  <version>
+    <release>0.0.5</release>
+    <api>0.0.5</api>
+  </version>
+  <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+  </stability>
+  <license>PHP</license>
+  <notes>-</notes>
+  <contents>
+    <dir name="/">
+      <file name="examples/yaml-dump.php" role="doc" md5sum="0a1951b4f2a21b9982a2d2933a8c7267"/>
+      <file name="examples/yaml-load.php" role="doc" md5sum="c18a0a4c93f128638f9953bc21b70066"/>
+      <file name="tests/DumpTest.php" role="test" md5sum="92cefc856362950ad6704c942e9b115c"/>
+      <file name="tests/failing1.yaml" role="test" md5sum="0ef99a6ae65297ed98adb19c3c2f814b"/>
+      <file name="tests/indent_1.yaml" role="test" md5sum="e96db0376fa1d7698c535ec80dbbe75e"/>
+      <file name="tests/IndentTest.php" role="test" md5sum="4995760150d5b3992363c140b845b51b"/>
+      <file name="tests/ParseTest.php" role="test" md5sum="a801cbc2093864aa948c3287103727a2"/>
+      <file name="tests/quotes.yaml" role="test" md5sum="054f5355f300d9127aa1e597cf5682d9"/>
+      <file name="tests/RoundTripTest.php" role="test" md5sum="31d7307c456c4bc32e84d0a7c8221e0f"/>
+      <file name="src/Spyc.php" role="php" md5sum="fcc5fe1ba9b402e9cf619943f98dbf9a"/>
+    </dir>
+  </contents>
+  <dependencies>
+    <required>
+      <php>
+        <min>5.3</min>
+      </php>
+      <pearinstaller>
+        <min>1.4</min>
+      </pearinstaller>
+    </required>
+  </dependencies>
+  <phprelease>
+    <filelist>
+      <install name="examples/yaml-dump.php" as="yaml-dump.php"/>
+      <install name="examples/yaml-load.php" as="yaml-load.php"/>
+      <install name="tests/DumpTest.php" as="DumpTest.php"/>
+      <install name="tests/failing1.yaml" as="failing1.yaml"/>
+      <install name="tests/indent_1.yaml" as="indent_1.yaml"/>
+      <install name="tests/IndentTest.php" as="IndentTest.php"/>
+      <install name="tests/ParseTest.php" as="ParseTest.php"/>
+      <install name="tests/quotes.yaml" as="quotes.yaml"/>
+      <install name="tests/RoundTripTest.php" as="RoundTripTest.php"/>
+      <install name="src/Spyc.php" as="Spyc.php"/>
+    </filelist>
+  </phprelease>
+</package>
